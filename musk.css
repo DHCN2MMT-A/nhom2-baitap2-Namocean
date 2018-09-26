@@ -43,11 +43,18 @@ img{
 	display: block;
 	margin-top: 400px;
 }
-/*ul*/
+/*li*/
 
-li:ntn-child(odd){
+ol li:nth-child(odd){
 	color: red;
 }
-li:nth-child(even) {
+
+ol li:nth-child(even) {
     color: blue;
+}
+ul li:nth-child(odd) {
+	color: blue;
+}
+ul li:nth-child(even) {
+	color: red;
 }
